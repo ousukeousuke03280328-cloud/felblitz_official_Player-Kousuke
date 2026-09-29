@@ -1,3 +1,73 @@
+.top-nav{
+background:rgb(29, 7, 88);
+position:fixed;
+width:100%;
+top:0px;
+left:0px;
+padding:15px;
+}
+
+.main-nav{
+ background:rgb(14, 3, 3);
+ padding:10px;
+ display:flex;
+ justify-content: space-between;
+ position:fixed;
+ width:100%;
+ top:30px;
+ left:0px;
+ box-sizing:border-box;/*widthにpadding border含めて　という指定*/
+}
+
+.emblem{
+	width: 50px;
+	margin-left:40px;
+}
+
+main{
+	margin-top:100px;
+}
+
+button{
+    background:none;
+    border:none;
+}
+
+button span{
+    display:block;
+		/*Aー ー ーをー
+	       	 　　　ー
+				 	　　　 ー
+		に変えるためのblock*/
+    width:42px;
+    height:6px;
+    background:rgba(252, 252, 249, 0.897);
+		margin:5px 0;
+}
+
+.menu{
+	display:none;
+	position:fixed;
+	top:100px;
+	right:0;
+	background:rgb(211, 193, 193);
+	width:200px;
+}
+
+.menu a{
+	display:block;
+	padding:20px;
+	color:black;
+	text-decoration:none;
+	border-bottom:2px solid black;
+}
+
+.menu.open{
+	display:block;
+}
+/*menu displya:none を openになったときにblockに変更する*/
+
+
 .player{
 	text-align:center;
 }
