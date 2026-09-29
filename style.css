@@ -1,0 +1,98 @@
+.player{
+	text-align:center;
+}
+
+.Kousuke-card{
+	background:white;
+	border:1px solid black;
+	border-radius:10px;
+	height:400px;
+	width:400px;
+	text-align: center;
+	display: flex;/*!注*/
+  justify-content: center;
+  align-items: flex-end;
+	transition: transform 0.3s ease;/*!注*/
+}
+
+/*!注*/
+.Kousuke-card:hover {
+  transform: scale(1.05);
+}
+
+.Kousuke-number{
+	color:black;
+	margin-right:20px;
+	font-size:50px;
+}
+
+.Kousuke_name_positon{
+	display:flex;
+	flex-direction:column;
+}
+
+.Kousuke-name{
+	color:black;
+	font-size:40px;
+	text-align:center;
+}
+
+.Kousuke-positon{
+	color:black;
+	font-size:20px;
+}
+
+.Takashi-card{
+	background:white;
+	border:1px solid black;
+	border-radius:10px;
+	height:400px;
+	width:400px;
+	text-align: center;
+	display: flex;/*!注*/
+	justify-content: center;
+	align-items: flex-end;
+	transition: transform 0.3s ease;/*!注*/
+}
+
+/*!注*/
+.Takashi-card:hover {
+  transform: scale(1.05);
+}
+
+.Takashi-number{
+	color:black;
+	margin-right:20px;
+	font-size:50px;
+}
+
+.Takashi_name_positon{
+	display:flex;
+	flex-direction:column;
+}
+
+.Takashi-name{
+	color:black;
+  font-size:40px;
+	text-align:center;
+}
+
+.Takashi-positon{
+	color:black;
+	font-size:20px;
+}
+
+
+
+/*
+TODO
+・🌟🌟🌟🌟🌟ノートを買って学んだコードをノートに書きだしてインプットする！
+・🌟🌟🌟各選手の情報をインプットする
+　・トップページと同じナビバーを付ける！
+・🌟ポジションごとに分けない
+!jutify-content align-items ➡ 中にある子要素を配置する為のcss
+!transition: transform 0.3s ease;
+!transform: scale(1.05);
+!HTMLでは、基本的に**<a>の中に<a>を入れることはできません
+!ハイパーリンク作成時の下線の削除を暗記する
+*/
